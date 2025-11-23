@@ -1,4 +1,11 @@
-# zed-editor-configuration
+# zed-editor-configuration with vim keybindings
+
+This is a [zed](https://zed-editor.org/) configuration with vim keybindings.
+
+## Features
+
+- Vim keybindings
+- Zed
 
 ## Installation
 
