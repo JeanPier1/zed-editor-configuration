@@ -1,0 +1,165 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git_panel": {
+    "dock": "right"
+  },
+  "show_edit_predictions": true,
+  "agent": {
+    "notify_when_agent_waiting": "primary_screen",
+    "model_parameters": []
+  },
+  "restore_on_startup": "last_session",
+  "auto_update": true,
+  "disable_ai": false,
+  "helix_mode": true,
+  "vim_mode": true,
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "project_panel": {
+    "hide_gitignore": true,
+    "file_icons": true,
+    "entry_spacing": "comfortable",
+    "dock": "left",
+    "git_status": true
+  },
+  "outline_panel": {
+    "git_status": true
+  },
+  "base_keymap": "VSCode",
+  "preview_tabs": {
+    "enabled": false
+  },
+  "status_bar": {
+    "experimental.show": false
+  },
+  "tabs": {
+    "git_status": true
+  },
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "gutter": {
+    "line_numbers": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "scrollbar": {
+    "git_diff": true,
+    "axes": {
+      "horizontal": false
+    }
+  },
+  "file_types": {},
+  "auto_indent_on_paste": true,
+  "linked_edits": true,
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "coloring": "indent_aware"
+  },
+  "features": {
+    "edit_prediction_provider": "supermaven"
+  },
+  "languages": {
+    "JSON": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    },
+    "HTML": {
+      "format_on_save": "on",
+      "formatter": "prettier",
+      "language_servers": [
+        "angular",
+        "emmet-language-server",
+        "vscode-html-language-server",
+        "tailwindcss-language-server"
+      ]
+    },
+    "Angular": {
+      "language_servers": ["emmet-language-server", "angular"]
+    },
+    "TypeScript": {
+      "formatter": "prettier",
+      "format_on_save": "on",
+      "language_servers": [
+        "angular",
+        "emmet-language-server",
+        "typescript-language-server",
+        "tailwindcss-language-server"
+      ]
+    },
+    "JavaScript": {
+      "formatter": "prettier",
+      "format_on_save": "on"
+    },
+    "TSX": {
+      "formatter": "prettier",
+      "format_on_save": "on",
+      "language_servers": [
+        "emmet-language-server",
+        "typescript-language-server"
+      ]
+    }
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "classFunctions": ["cva", "cx"],
+        "experimental": {
+          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"]
+        }
+      }
+    }
+  },
+  "soft_wrap": "prefer_line",
+  "icon_theme": "Catppuccin Macchiato",
+  "ui_font_size": 17,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Zen Dark"
+  },
+  "theme_overrides": {
+    "Tailwind Syntax": {
+      "syntax": {
+        "comment": {
+          "font_style": "italic"
+        },
+        "predictive": {
+          "font_style": "italic"
+        },
+        "constant.comment.todo": {
+          "color": "#4078f2ff"
+        },
+        "string.comment.info": {
+          "color": "#50a14fff"
+        },
+        "keyword.comment.warn": {
+          "color": "#c18401ff"
+        },
+        "property.comment.error": {
+          "color": "#ca1243ff"
+        },
+        "emphasis.comment.user": {
+          "color": "#000000dd"
+        }
+      }
+    }
+  }
+}

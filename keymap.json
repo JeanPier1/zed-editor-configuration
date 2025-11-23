@@ -1,0 +1,98 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-alt-shift-b": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-alt-shift-r": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-alt-shift-u": "editor::ConvertToUpperCase"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-alt-shift-i": "editor::ConvertToLowerCase"
+    }
+  },
+  {
+    "context": "vim_operator == d",
+    "bindings": {
+      "d": "vim::CurrentLine"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-d": "editor::SelectNext"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-L": "editor::SelectAllMatches"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl+alt+w": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-alt-w": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-g": "git_panel::Close"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-alt-shift-s": "workspace::SaveAll"
+    }
+  },
+  {
+    "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
+    "bindings": {
+      "y": "editor::Copy",
+      "p": "editor::Paste"
+    }
+  },
+  {
+    "context": "Editor && (vim_mode == normal || vim_mode == helix_normal)",
+    "bindings": {
+      "y y": "vim::YankLine",
+      "d d": "vim::VisualDeleteLine"
+    }
+  }
+]
