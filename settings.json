@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "auto_install_extensions": {
+    "html": true,
+    "emmet": true,
+    "Catppuccin": true,
+    "TOML": true,
+    "Git Firefly": true,
+    "Catppuccin Icons": true,
+    "SCSS": true,
+    "Angular": true,
+    "Comment": true,
+    "TypeScript Snippets": true,
+    "Zen": true,
+    "JavaScript Snippets": true
+  },
   "git_panel": {
     "dock": "right"
   },
