@@ -10,16 +10,15 @@
   "auto_install_extensions": {
     "html": true,
     "emmet": true,
-    "Catppuccin": true,
-    "TOML": true,
-    "Git Firefly": true,
-    "Catppuccin Icons": true,
-    "SCSS": true,
-    "Angular": true,
-    "Comment": true,
-    "TypeScript Snippets": true,
-    "Zen": true,
-    "JavaScript Snippets": true
+    "catppuccin": true,
+    "toml": true,
+    "git firefly": true,
+    "catppuccin icons": true,
+    "scss": true,
+    "angular": true,
+    "comment": true,
+    "typescript snippets": true,
+    "javascript snippets": true
   },
   "git_panel": {
     "dock": "right"
@@ -42,7 +41,8 @@
     "metrics": true
   },
   "project_panel": {
-    "hide_gitignore": true,
+    "hide_hidden": true,
+    "hide_gitignore": false,
     "file_icons": true,
     "entry_spacing": "comfortable",
     "dock": "left",
